@@ -1,0 +1,35 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+# dogs
+
+The goal of dogs is to demonstrate that dogs are a man's best friend.
+
+## Installation
+
+You can install the released version of dogs from Github with:
+
+```{r, eval=F}
+devtools::install_github("nxskok/dogs")
+```
+
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r example}
+library(dogs)
+dogs_over_cats()
+```
+
