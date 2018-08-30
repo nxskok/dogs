@@ -8,5 +8,5 @@
 #' dogs_over_cats()
 
 dogs_over_cats <- function(agree=TRUE) {
-  ifelse(agree,"Woof woof!","Try again.")
+  ifelse(agree,"Woof woof woof!","Try again.")
 }
